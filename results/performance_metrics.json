@@ -1,0 +1,104 @@
+{
+  "project_name": "metal-classification",
+  "project_id": "c7989390-651a-4a1f-a68c-466b8b45d6ab",
+  "models": [
+    {
+      "model_name": "Iteration 2",
+      "model_id": "d04c61f7-17d7-4400-9705-9b3a4dcc4d4d",
+      "created": "2025-09-14T13:26:48.763000+00:00",
+      "status": "Completed",
+      "overall_performance": {
+        "precision": 1.0,
+        "recall": 0.9875,
+        "average_precision": 1.0
+      },
+      "per_tag_performance": [
+        {
+          "tag_name": "Crazing",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Inclusion",
+          "precision": 1.0,
+          "recall": 0.975,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Patches",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Pitted",
+          "precision": 1.0,
+          "recall": 0.975,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Rolled",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Scratches",
+          "precision": 1.0,
+          "recall": 0.975,
+          "average_precision": 1.0
+        }
+      ]
+    },
+    {
+      "model_name": "Iteration 1",
+      "model_id": "29363b52-9224-4e8b-8ebf-031c45cfb186",
+      "created": "2025-09-14T13:25:31.763000+00:00",
+      "status": "Completed",
+      "overall_performance": {
+        "precision": 1.0,
+        "recall": 0.9791667,
+        "average_precision": 0.9999308
+      },
+      "per_tag_performance": [
+        {
+          "tag_name": "Crazing",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Inclusion",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Patches",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Pitted",
+          "precision": 1.0,
+          "recall": 0.9,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Rolled",
+          "precision": 1.0,
+          "recall": 1.0,
+          "average_precision": 1.0
+        },
+        {
+          "tag_name": "Scratches",
+          "precision": 1.0,
+          "recall": 0.975,
+          "average_precision": 1.0
+        }
+      ]
+    }
+  ]
+}
