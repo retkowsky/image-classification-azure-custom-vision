@@ -1,6 +1,6 @@
 # Azure Custom Vision
-# Serge Retkowsky - Microsoft - seretkow@microsoft.com
-# 11/09/2025
+# Serge Retkowsky - Microsoft - serge.retkowsky@microsoft.com
+# 15/09/2025
 
 import datetime
 import json
@@ -39,37 +39,31 @@ class AzureCustomVisionImageClassifier:
         self.project = None
         self.published_model_name = None
 
-    def create_project(self, project_name, description="Image classification project"):
-        """Create a new Custom Vision project with General [A2] domain and Multiclass type"""
+    def create_project(self, project_name, domain_id, classification_type, description="Image classification project"):
+        """Create a new Custom Vision project"""
         print(f"🛠️ Creating project: {project_name}")
         
         # Get available domains to find General [A2]
         domains = self.trainer.get_domains()
-        general_a2_domain = next(
-            d for d in domains if d.name == "General [A2]" and d.type == "Classification"
+
+        self.project = self.trainer.create_project(
+          project_name, 
+          description,
+          domain_id=domain_id,
+          classification_type=classification_type
         )
-        
-        # Create project with General [A2] domain and Multiclass classification
-        if general_a2_domain:
-            print(f"Using domain: {general_a2_domain.name}")
-            self.project = self.trainer.create_project(
-                project_name, 
-                description,
-                domain_id=general_a2_domain.id,
-                classification_type="Multiclass"  # Multiclass
-            )
 
         print(f"\n✅ Project created with ID: {self.project.id}")
         return self.project
 
     def list_available_domains(self):
         """List all available domains for Custom Vision projects"""
-        print("Available Custom Vision Domains:")
-        print("=" * 50)
+        print("Available Azure Custom Vision domains:")
+        print("=" * 100)
         
         try:
             domains = self.trainer.get_domains()
-            
+
             # Group domains by type
             domain_groups = {}
             for domain in domains:
@@ -79,11 +73,10 @@ class AzureCustomVisionImageClassifier:
                 domain_groups[domain_type].append(domain)
             
             for domain_type, domain_list in domain_groups.items():
-                print(f"\n{domain_type.upper()} DOMAINS:")
-                print("-" * 30)
+                print(f"\n{domain_type.upper()} DOMAINS:\n")
                 for domain in domain_list:
-                    exportable = "✅ Exportable" if getattr(domain, 'exportable', False) else "❌ Cloud only"
-                    print(f"  • {domain.name:<25} {exportable}")
+                    exportable = "✅ Exportable" if getattr(domain, 'exportable', False) else "ℹ️ Cloud only"
+                    print(f"  • {domain.name:<25} {exportable}\tID: {domain.id}")
                     
         except Exception as e:
             print(f"Error retrieving domains: {e}")
@@ -357,7 +350,7 @@ class AzureCustomVisionImageClassifier:
         
         print(f"\n🧠 Azure Custom Vision project: {project_details.name}")
         print(f"📝 Description: {project_details.description}")
-        print(f"🧾Project ID: {project_details.id}")
+        print(f"🧾 Project ID: {project_details.id}")
         
         print(f"\n🏷️ Tags ({len(tags)}):")
         for tag in tags:
@@ -904,7 +897,7 @@ class AzureCustomVisionImageClassifier:
             examples = [m for m in misclassifications 
                        if m['true_label'] == true_label and m['predicted_label'] == pred_label]
             
-            for i, example in enumerate(examples[:3]):  # Show first 3 examples
+            for i, example in enumerate(examples):
                 print(f"  {i+1}. {os.path.basename(example['image_path'])} "
                       f"(confidence: {example['probability']:.3f})")
         
