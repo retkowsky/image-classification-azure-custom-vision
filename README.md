@@ -15,8 +15,10 @@ Azure Custom Vision enables rapid creation of custom image classifiers using a s
 - https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/overview
 - https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/getting-started-build-a-classifier
 
-## Notebooks:
+## Notebooks
+### Training
 - https://github.com/retkowsky/image-classification-azure-custom-vision/blob/main/Image%20classification%20-%20Training%20-%20Azure%20Custom%20Vision.ipynb
+### Prediction
 - https://github.com/retkowsky/image-classification-azure-custom-vision/blob/main/Image%20classification%20-%20Prediction%20-%20Azure%20Custom%20Vision.ipynb
 
 ## Azure Custom Vision
