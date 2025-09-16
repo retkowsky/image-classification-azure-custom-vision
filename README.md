@@ -22,15 +22,18 @@ The dataset contains metal images categorized into six classes of defects:
 - Rolled
 - Scratches
 
-images/
-  ├── train/
-  │     ├── Crazing/
-  │     ├── Inclusion/
-  │     ├── Patches/
-  │     ├── Pitted/
-  │     ├── Rolled/
-  │     └── Scratches/
-  └── test/
+├── Image classification - Training - Azure Custom Vision.ipynb
+├── Image classification - Prediction - Azure Custom Vision.ipynb
+├── README.md
+└── images/
+    ├── train/
+    │   ├── Crazing/
+    │   ├── Inclusion/
+    │   ├── Patches/
+    │   ├── Pitted/
+    │   ├── Rolled/
+    │   └── Scratches/
+    └── test/
         ├── Crazing/
         ├── Inclusion/
         ├── Patches/
