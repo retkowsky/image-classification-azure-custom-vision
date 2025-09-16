@@ -12,7 +12,7 @@ This project provides end-to-end examples of:
 - Making predictions with the trained model
 - Best practices for working with Azure Custom Vision API
 
-## 🗂️ Repository Structure
+## 🗂️ Dataset
 
 The dataset is organized into 6 defect categories:
 - Crazing - Surface cracking patterns
@@ -21,6 +21,9 @@ The dataset is organized into 6 defect categories:
 - Pitted - Surface pitting defects
 - Rolled - Rolling-related defects
 - Scratches - Surface scratches and abrasions
+
+These images are taken from the NEU Surface Defect Database:<br>
+https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database
 
 ## 📓 Notebooks
 
