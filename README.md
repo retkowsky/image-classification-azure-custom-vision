@@ -6,7 +6,8 @@ This repository contains Python notebooks demonstrating how to build and deploy 
 
 ## 📋 Overview
 
-Azure Custom Vision is a cognitive service that allows you to build custom image classifiers. This project provides end-to-end examples of:
+Azure Custom Vision is a Azure AI service that allows you to build custom image classifiers. 
+This project provides end-to-end examples of:
 - Training a custom image classification model
 - Making predictions with the trained model
 - Best practices for working with Azure Custom Vision API
