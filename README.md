@@ -1,6 +1,8 @@
 # Image Classification with Azure Custom Vision
 
 This repository contains Python notebooks demonstrating how to build and deploy image classification models using Azure Custom Vision service. The project consists of two main components: model training and prediction inference.
+<br><br>
+<img src="screenshot.jpg">
 
 ## 📋 Overview
 
@@ -190,9 +192,6 @@ This project is provided as educational material. Please ensure compliance with 
 ## ⚠️ Disclaimer
 
 These notebooks are designed for demonstration and learning purposes. For production usage, consider additional security, error handling, and scalability requirements.
-
-## Custom webapp
-<img src="screenshot.jpg">
 
 ## Images and tags
 <img src="screenshot1.jpg">
