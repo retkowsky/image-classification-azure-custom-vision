@@ -1,0 +1,8 @@
+id,image_path,true_label,predicted_label,probability
+33,images/test/Inclusion/in_248.jpg,Inclusion,Scratches,0.85988
+43,images/test/Inclusion/in_258.jpg,Inclusion,Patches,0.79991
+49,images/test/Inclusion/in_264.jpg,Inclusion,Patches,0.70966
+50,images/test/Inclusion/in_265.jpg,Inclusion,Patches,0.70059
+51,images/test/Inclusion/in_266.jpg,Inclusion,Unknown,0.45646
+52,images/test/Inclusion/in_267.jpg,Inclusion,Rolled,0.53405
+155,images/test/Scratches/sc_250.jpg,Scratches,Rolled,0.828

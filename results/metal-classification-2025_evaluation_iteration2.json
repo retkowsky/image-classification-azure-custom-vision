@@ -1,0 +1,96 @@
+{
+  "iteration_info": {
+    "id": "7ece2f92-2f5b-4675-90c8-deceb0502c5a",
+    "name": "Iteration 1",
+    "status": "Completed",
+    "created": "2025-09-16 07:28:20.010000+00:00",
+    "threshold": 0.5
+  },
+  "overall_metrics": {
+    "precision": 0.99583334,
+    "recall": 0.99583334,
+    "average_precision": 0.9999308
+  },
+  "per_tag_metrics": [
+    {
+      "tag_name": "Crazing",
+      "tag_id": "1ad522c4-a7ed-468b-880c-81b726ac6f66",
+      "precision": 1.0,
+      "recall": 1.0,
+      "average_precision": 1.0
+    },
+    {
+      "tag_name": "Inclusion",
+      "tag_id": "6f410e4f-4678-4723-82b1-bd53f72791d2",
+      "precision": 1.0,
+      "recall": 1.0,
+      "average_precision": 1.0
+    },
+    {
+      "tag_name": "Patches",
+      "tag_id": "7b63887c-8c87-4ed7-aab7-0d9545b58230",
+      "precision": 0.9756098,
+      "recall": 1.0,
+      "average_precision": 1.0
+    },
+    {
+      "tag_name": "Pitted",
+      "tag_id": "42fad519-5cf5-4269-9d2c-c6806ac830de",
+      "precision": 1.0,
+      "recall": 0.975,
+      "average_precision": 1.0
+    },
+    {
+      "tag_name": "Rolled",
+      "tag_id": "8448f494-768d-4647-a93d-2ba491bf6a66",
+      "precision": 1.0,
+      "recall": 1.0,
+      "average_precision": 1.0
+    },
+    {
+      "tag_name": "Scratches",
+      "tag_id": "bfe34aec-6b96-4cab-a3e7-d8be602d8d93",
+      "precision": 1.0,
+      "recall": 1.0,
+      "average_precision": 1.0
+    }
+  ],
+  "tag_information": [
+    {
+      "name": "Patches",
+      "id": "7b63887c-8c87-4ed7-aab7-0d9545b58230",
+      "description": null,
+      "image_count": 200
+    },
+    {
+      "name": "Rolled",
+      "id": "8448f494-768d-4647-a93d-2ba491bf6a66",
+      "description": null,
+      "image_count": 200
+    },
+    {
+      "name": "Crazing",
+      "id": "1ad522c4-a7ed-468b-880c-81b726ac6f66",
+      "description": null,
+      "image_count": 200
+    },
+    {
+      "name": "Inclusion",
+      "id": "6f410e4f-4678-4723-82b1-bd53f72791d2",
+      "description": null,
+      "image_count": 200
+    },
+    {
+      "name": "Pitted",
+      "id": "42fad519-5cf5-4269-9d2c-c6806ac830de",
+      "description": null,
+      "image_count": 200
+    },
+    {
+      "name": "Scratches",
+      "id": "bfe34aec-6b96-4cab-a3e7-d8be602d8d93",
+      "description": null,
+      "image_count": 200
+    }
+  ]
+}

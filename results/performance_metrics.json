@@ -1,11 +1,11 @@
 {
-  "project_name": "metal-classification",
-  "project_id": "c7989390-651a-4a1f-a68c-466b8b45d6ab",
+  "project_name": "metal-classification-2025",
+  "project_id": "90b643a7-ba68-404e-a840-b1918b501f00",
   "models": [
     {
       "model_name": "Iteration 2",
-      "model_id": "d04c61f7-17d7-4400-9705-9b3a4dcc4d4d",
-      "created": "2025-09-14T13:26:48.763000+00:00",
+      "model_id": "81758579-7682-4eb6-a695-e2b978f8b30f",
+      "created": "2025-09-16T07:33:13.253000+00:00",
       "status": "Completed",
       "overall_performance": {
         "precision": 1.0,
@@ -53,8 +53,8 @@
     },
     {
       "model_name": "Iteration 1",
-      "model_id": "29363b52-9224-4e8b-8ebf-031c45cfb186",
-      "created": "2025-09-14T13:25:31.763000+00:00",
+      "model_id": "7ece2f92-2f5b-4675-90c8-deceb0502c5a",
+      "created": "2025-09-16T07:28:20.010000+00:00",
       "status": "Completed",
       "overall_performance": {
         "precision": 1.0,
