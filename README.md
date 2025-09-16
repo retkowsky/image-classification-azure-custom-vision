@@ -19,3 +19,14 @@ Azure Custom Vision enables rapid creation of custom image classifiers using a s
 - https://github.com/retkowsky/image-classification-azure-custom-vision/blob/main/Image%20classification%20-%20Training%20-%20Azure%20Custom%20Vision.ipynb
 - https://github.com/retkowsky/image-classification-azure-custom-vision/blob/main/Image%20classification%20-%20Prediction%20-%20Azure%20Custom%20Vision.ipynb
 
+## Azure Custom Vision
+<img src="screenshot.jpg">
+
+## Images and tags
+<img src="screenshot1.jpg">
+
+## Model results
+<img src="screenshot2.jpg">
+
+## Predictions
+<img src="screenshot3.jpg">
