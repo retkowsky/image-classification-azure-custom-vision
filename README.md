@@ -14,12 +14,30 @@ This project provides end-to-end examples of:
 
 ## 🗂️ Repository Structure
 
-```
-├── Image classification - Training - Azure Custom Vision.ipynb
-├── Image classification - Prediction - Azure Custom Vision.ipynb
-└── README.md
-```
+The dataset contains metal images categorized into six classes of defects:
+- Crazing
+- Inclusion
+- Patches
+- Pitted
+- Rolled
+- Scratches
 
+images/
+  ├── train/
+  │     ├── Crazing/
+  │     ├── Inclusion/
+  │     ├── Patches/
+  │     ├── Pitted/
+  │     ├── Rolled/
+  │     └── Scratches/
+  └── test/
+        ├── Crazing/
+        ├── Inclusion/
+        ├── Patches/
+        ├── Pitted/
+        ├── Rolled/
+        └── Scratches/
+        
 ## 📓 Notebooks
 
 ### 1. Training Notebook
