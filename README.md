@@ -14,33 +14,14 @@ This project provides end-to-end examples of:
 
 ## 🗂️ Repository Structure
 
-The dataset contains metal images categorized into six classes of defects:
-- Crazing
-- Inclusion
-- Patches
-- Pitted
-- Rolled
-- Scratches
+The dataset is organized into 6 defect categories:
+- Crazing - Surface cracking patterns
+- Inclusion - Foreign material inclusions
+- Patches - Surface patches or repairs
+- Pitted - Surface pitting defects
+- Rolled - Rolling-related defects
+- Scratches - Surface scratches and abrasions
 
-├── Image classification - Training - Azure Custom Vision.ipynb
-├── Image classification - Prediction - Azure Custom Vision.ipynb
-├── README.md
-└── images/
-    ├── train/
-    │   ├── Crazing/
-    │   ├── Inclusion/
-    │   ├── Patches/
-    │   ├── Pitted/
-    │   ├── Rolled/
-    │   └── Scratches/
-    └── test/
-        ├── Crazing/
-        ├── Inclusion/
-        ├── Patches/
-        ├── Pitted/
-        ├── Rolled/
-        └── Scratches/
-        
 ## 📓 Notebooks
 
 ### 1. Training Notebook
