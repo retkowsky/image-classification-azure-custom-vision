@@ -32,7 +32,6 @@ https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database
 <br><br>
 [Notebook1](https://github.com/retkowsky/image-classification-azure-custom-vision/blob/main/Image%20classification%20-%20Training%20-%20Azure%20Custom%20Vision.ipynb)
 
-<br><br>
 This notebook covers:
 - Setting up Azure Custom Vision training resources
 - Uploading and tagging training images
@@ -46,7 +45,6 @@ This notebook covers:
 <br><br>
 [Notebook2](https://github.com/retkowsky/image-classification-azure-custom-vision/blob/main/Image%20classification%20-%20Prediction%20-%20Azure%20Custom%20Vision.ipynb)
 
-<br><br>
 This notebook demonstrates:
 - Setting up prediction resources
 - Loading the trained model
