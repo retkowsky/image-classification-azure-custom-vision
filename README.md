@@ -4,6 +4,9 @@ This repository contains Python notebooks demonstrating how to build and deploy 
 <br><br>
 <img src="screenshot.jpg">
 
+## 📖 Medium publication
+https://medium.com/@sergems18/complete-guide-image-classification-with-azure-custom-vision-metal-defect-classification-use-e49af6e7e100
+
 ## 📋 Overview
 
 Azure Custom Vision is a Azure AI service that allows you to build custom image classifiers. 
